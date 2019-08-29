@@ -1,0 +1,17 @@
+----------24.03.2014------------Version 0.1---------------
+- Initial Version 0.1
+
+----------01.04.2014------------Version 0.1.1-------------
+- uses SBWallpaperEffectView instead of wallpaper images
+- update Statusbar out of beta
+
+----------06.04.2014------------Version 0.1.1-------------
+- convert .plist to binary
+- run dot_clean
+
+----------24.04.2014------------Version 0.1.1_1-----------
+- FIX: float and CGFloat
+- FIX: Settings text
+- Added Donatebutton
+----------25.10.2014------------Version 0.2---------------
+- initial iOS 8 Support

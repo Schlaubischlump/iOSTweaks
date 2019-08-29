@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = NCModifierSettings;
+		cell = PSLinkCell;
+		icon = "Icon.png";
+		detail = "NCModifierSettingsListController";
+		isController = TRUE;
+		label = NCModifier;
+	};
+}

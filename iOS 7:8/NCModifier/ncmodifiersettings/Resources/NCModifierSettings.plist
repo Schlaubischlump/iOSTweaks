@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>NCModifier</string>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>icon</key>
+			<string>HeaderIcon.png</string>
+			<key>height</key>
+			<integer>80</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Requieres respring.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.devDav.NCModifier</string>
+			<key>key</key>
+			<string>NCMEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.devDav.NCModifier</string>
+			<key>key</key>
+			<string>NCMShowSeparator</string>
+			<key>label</key>
+			<string>Show separator</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>The statusbar of the pulled down application gets updated. Disabling this option might increase performance on older devices.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.devDav.NCModifier</string>
+			<key>key</key>
+			<string>NCMUpdateStatusBar</string>
+			<key>label</key>
+			<string>Update statusbar</string>
+			<key>PostNotification</key>
+			<string>com.devDav.NCModifier/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>performRespring</string>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>confirmation</key>
+			<dict>
+				<key>prompt</key>
+				<string>Do you really want to respring?</string>
+				<key>cancelTitle</key>
+				<string>Cancel</string>
+				<key>title</key>
+				<string>Respring</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>2014 DK</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate</string>
+			<key>icon</key>
+			<string>paypal</string>
+			<key>action</key>
+			<string>openPayPal</string>
+			<key>alignment</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

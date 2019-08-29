@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = SmoothNCSettings;
+		cell = PSLinkCell;
+		icon = "Icon.png";
+		detail = "SmoothNCSettingsListController";
+		isController = TRUE;
+		label = SmoothNC;
+	};
+}

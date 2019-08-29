@@ -1,0 +1,9 @@
+Package: com.devDav.ncMediaControllerPlugin
+Name: NCMediaControllerPlugin
+Depends: mobilesubstrate, com.devDav.extensionLoader
+Version: 0.1
+Architecture: iphoneos-arm
+Description: NCMediaControllerPlugin is an example plugin for ExtensionLoader, which adds media controls to your Notification Center.
+Maintainer: D.K. <dk.cydiaacc@gmail.com>
+Author: D.K.
+Section: Tweaks

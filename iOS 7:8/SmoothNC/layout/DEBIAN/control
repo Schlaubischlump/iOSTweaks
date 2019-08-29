@@ -1,0 +1,9 @@
+Package: com.devDav.SmoothNC
+Name: SmoothNC
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Scroll smoothly between your Notification Center tabs.
+Maintainer: D.K. <dk.cydiaacc@gmail.com>
+Author: D.K.
+Section: Tweaks

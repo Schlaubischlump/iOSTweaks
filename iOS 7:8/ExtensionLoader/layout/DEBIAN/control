@@ -1,0 +1,9 @@
+Package: com.devDav.extensionLoader
+Name: ExtensionLoader
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, preferenceloader, firmware (>= 7.0)
+Version: 0.2
+Architecture: iphoneos-arm
+Description: ExtensionLoader is a library for loading custom views into Notification Center. Furthermore it allows you to rearrange and remove views from Notification Center. 
+Maintainer: D.K. <dk.cydiaacc@gmail.com>
+Author: D.K.
+Section: Tweaks

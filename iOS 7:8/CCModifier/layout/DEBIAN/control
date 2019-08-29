@@ -1,0 +1,9 @@
+Package: com.devDav.ccModifier
+Name: CCModifier
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, preferenceloader, firmware (>= 7.0)
+Version: 0.3
+Architecture: iphoneos-arm
+Description: CCModifier merges the app switcher and Control Center. (Inspired by the iOS 8 Concept)
+Maintainer: D.K. <dk.cydiaacc@gmail.com>
+Author: D.K.
+Section: Tweaks

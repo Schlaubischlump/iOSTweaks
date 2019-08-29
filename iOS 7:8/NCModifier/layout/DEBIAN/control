@@ -1,0 +1,9 @@
+Package: com.devDav.ncModifier
+Name: NCModifier
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
+Version: 0.2
+Architecture: iphoneos-arm
+Description: NCModifier changes the way how Notification Center looks like. (Inspired by the iOS 8 Concept)
+Maintainer: D.K. <dk.cydiaacc@gmail.com>
+Author: D.K.
+Section: Tweaks

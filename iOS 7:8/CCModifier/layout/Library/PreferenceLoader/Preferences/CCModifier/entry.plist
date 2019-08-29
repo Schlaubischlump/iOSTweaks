@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = CCModifierSettings;
+		cell = PSLinkCell;
+		icon = "Icon.png";
+		detail = "CCModifierSettingsListController";
+		isController = TRUE;
+		label = CCModifier;
+	};
+}
